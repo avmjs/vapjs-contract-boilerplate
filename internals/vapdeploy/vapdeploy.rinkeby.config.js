@@ -1,9 +1,9 @@
-const ethdeployBase = require('./ethdeploy.base.config.js');
-const SignerProvider = require('ethjs-provider-signer'); // eslint-disable-line
-const sign = require('ethjs-signer').sign; // eslint-disable-line
+const vapdeployBase = require('./vapdeploy.base.config.js');
+const SignerProvider = require('vapjs-provider-signer'); // eslint-disable-line
+const sign = require('vapjs-signer').sign; // eslint-disable-line
 const accounts = require('../accounts');
 
-module.exports = ethdeployBase({
+module.exports = vapdeployBase({
   name: 'rinkeby',
   provider: new SignerProvider('https://rinkeby.infura.io', {
     signTransaction: (rawTx, cb) => {

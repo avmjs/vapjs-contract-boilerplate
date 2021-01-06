@@ -11,13 +11,13 @@ module.exports = environment => (options) => ({ // eslint-disable-line
   module: {
     environment,
     preLoaders: [
-      { test: /(environments)\.(json)$/, loader: 'ethdeploy-environment-loader', build: true },
+      { test: /(environments)\.(json)$/, loader: 'vapdeploy-environment-loader', build: true },
     ],
     loaders: [
       {
         test: /\.(sol)$/,
         exclude: /(test\.)/,
-        loader: 'ethdeploy-solc-loader',
+        loader: 'vapdeploy-solc-loader',
         base: 'src/contracts/',
         filterFilenames: true,
         filterWarnings: true,

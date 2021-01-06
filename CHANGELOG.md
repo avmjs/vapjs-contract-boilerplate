@@ -1,5 +1,5 @@
-# 1.0.0 -- ethjs-contract-boilerplate
+# 1.0.0 -- vapjs-contract-boilerplate
 
-This is a starting point for contract development on Ethereum.
+This is a starting point for contract development on Vapory.
 
-It includes ethjs/wafr/ethdeploy and is for complex deployment of smart-contracts. 
+It includes vapjs/wafr/vapdeploy and is for complex deployment of smart-contracts. 

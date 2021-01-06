@@ -1,4 +1,4 @@
-const TestRPC = require('ethereumjs-testrpc'); // eslint-disable-line
+const TestRPC = require('vaporyjs-testrpc'); // eslint-disable-line
 const accounts = require('../accounts/index.js');
 
 const server = TestRPC.server({

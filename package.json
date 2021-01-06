@@ -1,7 +1,7 @@
 {
-  "name": "ethjs-contract-boilerplate",
+  "name": "vapjs-contract-boilerplate",
   "version": "1.0.1",
-  "description": "An Ethereum contract boilerplate using EthJS, wafr and ethdeploy.",
+  "description": "An Vapory contract boilerplate using VapJS, wafr and vapdeploy.",
   "main": "src/index.js",
   "scripts": {
     "start": "npm run start:testrpc",
@@ -23,25 +23,25 @@
     "lint:eslint": "eslint --ignore-path .gitignore --ignore-pattern **/**.min.js",
     "lint:js": "npm run lint:eslint -- . ",
     "lint:staged": "lint-staged",
-    "deploy:mainnet": "ethdeploy ./internals/ethdeploy/ethdeploy.mainnet.config.js",
-    "deploy:rinkeby": "ethdeploy ./internals/ethdeploy/ethdeploy.rinkeby.config.js",
-    "deploy:testrpc": "ethdeploy ./internals/ethdeploy/ethdeploy.testrpc.config.js",
+    "deploy:mainnet": "vapdeploy ./internals/vapdeploy/vapdeploy.mainnet.config.js",
+    "deploy:rinkeby": "vapdeploy ./internals/vapdeploy/vapdeploy.rinkeby.config.js",
+    "deploy:testrpc": "vapdeploy ./internals/vapdeploy/vapdeploy.testrpc.config.js",
     "test-travis": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- src/contracts/**/*test.**.js -R spec --timeout 2000000 --compilers js:babel-core/register --require ./internals/mocha/index",
     "coveralls": "npm run test-travis && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethjs/ethjs-contract-boilerplate.git"
+    "url": "git+https://github.com/vapjs/vapjs-contract-boilerplate.git"
   },
   "keywords": [
-    "ethjs",
+    "vapjs",
     "contract",
     "boilerplate",
-    "ethereum",
+    "vapory",
     "solidity",
     "starter",
     "wafr",
-    "ethdeploy",
+    "vapdeploy",
     "deployment",
     "smart-contract",
     "blockchain",
@@ -50,14 +50,14 @@
   "author": "Nick Dodson <thenickdodson@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethjs/ethjs-contract-boilerplate/issues"
+    "url": "https://github.com/vapjs/vapjs-contract-boilerplate/issues"
   },
-  "homepage": "https://github.com/ethjs/ethjs-contract-boilerplate#readme",
+  "homepage": "https://github.com/vapjs/vapjs-contract-boilerplate#readme",
   "dependencies": {
-    "ethdeploy": "^1.0.7",
-    "ethereumjs-testrpc": "^4.1.1",
-    "ethjs": "0.2.8",
-    "ethjs-provider-http": "0.1.6",
+    "vapdeploy": "^1.0.7",
+    "vaporyjs-testrpc": "^4.1.1",
+    "vapjs": "0.2.8",
+    "vapjs-provider-http": "0.1.6",
     "solc": "0.4.16"
   },
   "devDependencies": {
@@ -65,7 +65,7 @@
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",
     "babel-loader": "6.2.10",
-    "ethereumjs-testrpc": "4.1.1",
+    "vaporyjs-testrpc": "4.1.1",
     "babel-plugin-transform-async-to-generator": "6.22.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.22.0",
     "babel-polyfill": "6.22.0",
@@ -82,12 +82,12 @@
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "3.0.2",
     "eslint-plugin-react": "6.9.0",
-    "ethdeploy": "1.1.0",
-    "ethdeploy-environment-loader": "1.0.0",
-    "ethdeploy-solc-loader": "1.0.6",
-    "ethjs": "0.2.7",
-    "ethjs-provider-signer": "0.1.4",
-    "ethjs-signer": "0.1.1",
+    "vapdeploy": "1.1.0",
+    "vapdeploy-environment-loader": "1.0.0",
+    "vapdeploy-solc-loader": "1.0.6",
+    "vapjs": "0.2.7",
+    "vapjs-provider-signer": "0.1.4",
+    "vapjs-signer": "0.1.1",
     "html-webpack-plugin": "2.28.0",
     "json-loader": "0.5.4",
     "lint-staged": "3.3.0",

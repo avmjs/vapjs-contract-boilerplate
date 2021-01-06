@@ -1,20 +1,20 @@
-## ethjs-contract-boilerplate
+## vapjs-contract-boilerplate
 
 <div>
   <!-- Dependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-contract-boilerplate">
-    <img src="https://david-dm.org/ethjs/ethjs-contract-boilerplate.svg"
+  <a href="https://david-dm.org/vapjs/vapjs-contract-boilerplate">
+    <img src="https://david-dm.org/vapjs/vapjs-contract-boilerplate.svg"
     alt="Dependency Status" />
   </a>
 
   <!-- devDependency Status -->
-  <a href="https://david-dm.org/ethjs/ethjs-contract-boilerplate#info=devDependencies">
-    <img src="https://david-dm.org/ethjs/ethjs-contract-boilerplate/dev-status.svg" alt="devDependency Status" />
+  <a href="https://david-dm.org/vapjs/vapjs-contract-boilerplate#info=devDependencies">
+    <img src="https://david-dm.org/vapjs/vapjs-contract-boilerplate/dev-status.svg" alt="devDependency Status" />
   </a>
 
   <!-- NPM Version -->
-  <a href="https://www.npmjs.org/package/ethjs-contract-boilerplate">
-    <img src="http://img.shields.io/npm/v/ethjs-contract-boilerplate.svg"
+  <a href="https://www.npmjs.org/package/vapjs-contract-boilerplate">
+    <img src="http://img.shields.io/npm/v/vapjs-contract-boilerplate.svg"
     alt="NPM version" />
   </a>
 
@@ -28,7 +28,7 @@
 
 ## Features
   - Highly unopinionated
-  - Complex configurable multi-environment contract deployment (ethdeploy)
+  - Complex configurable multi-environment contract deployment (vapdeploy)
   - Dual-language contract testing in Javascript (mocha) and Solidity (wafr)
   - Async/Await enabled JS testing
   - Configurable linting with eslint
@@ -38,8 +38,8 @@
 ## Install
 
 ```
-git clone https://github.com/ethjs/ethjs-contract-boilerplate
-cd ethjs-contract-boilerplate
+git clone https://github.com/vapjs/vapjs-contract-boilerplate
+cd vapjs-contract-boilerplate
 npm install
 ```
 
@@ -88,7 +88,7 @@ npm run build
 
 ## About
 
-This is a highly configurable boilerplate for constructing complex Ethereum smart-contract systems.
+This is a highly configurable boilerplate for constructing complex Vapory smart-contract systems.
 
 All environment and account configuration is included within the `internals` directory.
 
@@ -104,7 +104,7 @@ All account data is included in the accounts directory. This is where you can de
 
 This boierplate is configured to use the same account accross all environments.
 
-**Contract Deployment (`internals/ethdeploy`)**
+**Contract Deployment (`internals/vapdeploy`)**
 
 All deployment configuration is included in this directory.
 
@@ -114,23 +114,23 @@ All webpack related configuration is in this directory.
 
 ## Contributing
 
-Please help better the ecosystem by submitting issues and pull requests to `ethjs-contract-boilerplate`. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBNB linting standard and the unix philosophy.
+Please help better the ecosystem by submitting issues and pull requests to `vapjs-contract-boilerplate`. We need all the help we can get to build the absolute best linting standards and utilities. We follow the AirBNB linting standard and the unix philosophy.
 
 ## Help out
 
 There is always a lot of work to do, and will have many rules to maintain. So please help out in any way that you can:
 
-- Create, enhance, and debug ethjs rules (see our guide to ["Working on rules"](./.github/CONTRIBUTING.md)).
+- Create, enhance, and debug vapjs rules (see our guide to ["Working on rules"](./.github/CONTRIBUTING.md)).
 - Improve documentation.
 - Chime in on any open issue or pull request.
-- Open new issues about your ideas for making `ethjs` better, and pull requests to show us how your idea works.
+- Open new issues about your ideas for making `vapjs` better, and pull requests to show us how your idea works.
 - Add new tests to *absolutely anything*.
 - Create or contribute to ecosystem tools.
 - Spread the word!
 
 Please consult our [Code of Conduct](CODE_OF_CONDUCT.md) docs before helping out.
 
-We communicate via [issues](https://github.com/ethjs/ethjs-contract-boilerplate/issues) and [pull requests](https://github.com/ethjs/ethjs-contract-boilerplate/pulls).
+We communicate via [issues](https://github.com/vapjs/vapjs-contract-boilerplate/issues) and [pull requests](https://github.com/vapjs/vapjs-contract-boilerplate/pulls).
 
 ## Todo
 
@@ -144,7 +144,7 @@ The current TODO items are:
 
 - [Changelog](CHANGELOG.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](https://raw.githubusercontent.com/ethjs/ethjs-contract-boilerplate/master/LICENSE)
+- [License](https://raw.githubusercontent.com/vapjs/vapjs-contract-boilerplate/master/LICENSE)
 
 ## Licence
 
