@@ -1,5 +1,6 @@
 {
   "name": "vapjs-contract-boilerplate",
+  "namespace":"vapjs",
   "version": "1.0.1",
   "description": "An Vapory contract boilerplate using VapJS, wafr and vapdeploy.",
   "main": "src/index.js",
